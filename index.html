@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form class="add" onsubmit="submit">
+    <input type="text" placeholder="name" name="name">
+    <input type="text" placeholder="description" name="description">
+    <select name="category" id="">
+      <option value="horror">horror</option>
+      <option value="comedy">commdey</option>
+      <option value="action">action</option>
+    </select>
+    <button type="submit">summit</button>
+
+</form>
+<form class="delete" onsubmit="submit">
+  <input type="text" placeholder="cart id" name="id">
+ 
+  <button type="submit">Delete</button>
+
+</form>
+<form class="update" style="margin: 20px;" onsubmit="submit">
+  <input type="text" name="name" id="" placeholder="name">
+  <input type="text" placeholder="cart id" name="id">
+  <button type="submit">update</button>
+</form>
+<form  class="regist">
+  <input type="email" placeholder="email" name="email">
+  <input type="password" placeholder="password" name="password">
+  <input type="submit" name="register user" >
+</form>
+<form  class="login" style="width:500px; margin-top: 20px;">
+  <input type="email" placeholder="email" name="email">
+  <input type="password" placeholder="password" name="password">
+  <input type="submit" name="login user" >
+</form>
+<button class="logoutform">logout</button>
+ <script src="main.js"></script> 
+</body>
+</html>
